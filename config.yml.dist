@@ -1,0 +1,15 @@
+base: /
+title: My Social Site # Site title
+sitename: My thoughts and ideas # Site name
+support: # File extensions which will be parsed (must be an array)
+  - md
+  - txt
+  - html
+  - htm
+buildall: true # Whether to build pages without frontmatter
+outputdir: _site # Output directory
+defaultcategory: "General" # Default category 
+lang: [ en ]  # Supported languages (must be an array - first is the default)
+fqdn: https://example.com # FQDN without trailing slash
+author: Me # Author name
+htmlpostprocessing: minify # minify or beautify or none

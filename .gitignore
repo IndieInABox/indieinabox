@@ -1,0 +1,7 @@
+/vendor/
+/node_modules/
+/public/
+/cache/
+/tools/
+.phive
+config.yml

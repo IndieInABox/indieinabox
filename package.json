@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "serve": "http-server _site",
+    "build": "php src/indieinabox.php build",
+    "builddev": "php src/indieinabox.php build -d",
+    "dev": "chokidar src/**/* theme/**/* content/**/* -c \"php src/indieinabox.php build -d\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
